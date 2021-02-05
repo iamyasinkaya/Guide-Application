@@ -1,6 +1,6 @@
 # Guide Application
 
-## 📦 NuGet
+## 📦 NuGet Packages
 
 * EntityFrameworkCore
 * Swagger
