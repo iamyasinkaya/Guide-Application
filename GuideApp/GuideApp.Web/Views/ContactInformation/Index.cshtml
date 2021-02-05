@@ -1,0 +1,71 @@
+﻿@model IEnumerable<GuideApp.Web.Models.ContactInformation>
+
+@{
+    ViewData["Title"] = "İletişim Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kişi ve İletişim Detayları</h1>
+
+
+<table class="table table-bordered table-hover text-center table-sm" >
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+
+
+            <th>
+                Aksiyonlar
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+
+
+
+            <td>
+                @Html.ActionLink("Güncelle", "UpdateContactInfo", new { id = item.ContactInfoId },new {@class="btn btn-outline-warning" }) |
+                @Html.ActionLink("Detaylar", "DetailContactInfo", new { id = item.ContactInfoId },new {@class="btn btn-outline-primary" }) |
+                @Html.ActionLink("Kaldır", "RemoveContactInfo", new { id = item.ContactInfoId },new { @class ="btn btn-outline-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
