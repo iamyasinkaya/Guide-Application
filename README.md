@@ -1,2 +1,6 @@
-# TestApp
- Simple Guide App
+# Guide Application
+
+# Technologies
+
+* EntityFrameworkCore
+* Swagger
