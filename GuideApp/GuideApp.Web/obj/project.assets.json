@@ -9722,11 +9722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iamys\\source\\repos\\GuideApp\\GuideApp.Web\\GuideApp.Web.csproj",
+      "projectUniqueName": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\TestApp\\GuideApp\\GuideApp.Web\\GuideApp.Web.csproj",
       "projectName": "GuideApp.Web",
-      "projectPath": "C:\\Users\\iamys\\source\\repos\\GuideApp\\GuideApp.Web\\GuideApp.Web.csproj",
+      "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\TestApp\\GuideApp\\GuideApp.Web\\GuideApp.Web.csproj",
       "packagesPath": "C:\\Users\\iamys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iamys\\source\\repos\\GuideApp\\GuideApp.Web\\obj\\",
+      "outputPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\TestApp\\GuideApp\\GuideApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\iamys\\AppData\\Roaming\\NuGet\\NuGet.Config",

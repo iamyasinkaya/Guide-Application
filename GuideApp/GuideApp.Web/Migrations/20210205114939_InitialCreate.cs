@@ -14,7 +14,8 @@ namespace GuideApp.Web.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
-                    Company = table.Column<string>(nullable: true)
+                    Company = table.Column<string>(nullable: true),
+                    ContactInfoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -46,7 +47,8 @@ namespace GuideApp.Web.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_ContactInformation_ContactId",
                 table: "ContactInformation",
-                column: "ContactId");
+                column: "ContactId",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

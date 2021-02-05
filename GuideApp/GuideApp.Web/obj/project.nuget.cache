@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Clyq1JEuY8PqWcbuAtZcxX9ZVA3BLWSQOOqrpo8tgHOyv2JKx2kpdREark2e5ZDcLM+aK7S9RdbuAt+X6Pqsag==",
+  "dgSpecHash": "Co2tpzDm9L5GDPE0+tQs2UJ8SUqeHRGXTI17AWR4fcZXdjyx5vAE0Ryw8EMbYQR7AEfTQpH03OzWlrIcn1WWvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iamys\\source\\repos\\GuideApp\\GuideApp.Web\\GuideApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\TestApp\\GuideApp\\GuideApp.Web\\GuideApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iamys\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\iamys\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GuideApp.Web.Migrations
 {
     [DbContext(typeof(GuideAppContext))]
-    [Migration("20210204123856_NewContactInfoIdAdded")]
-    partial class NewContactInfoIdAdded
+    [Migration("20210205114939_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
