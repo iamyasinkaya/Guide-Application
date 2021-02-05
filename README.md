@@ -20,6 +20,6 @@ First you must change "ConnectionStrings" under "appsettings.json" according to 
 You must run the following commands through Package Manager Console 
 
 ```console
-$ Add-Migration "name"
+$ Add-Migration "Specified Name"
 $ Update-Database
 ```
