@@ -8,10 +8,18 @@
 ## Overview
 
 ### Installation
-First you must change "ConnectionStrings" under "appsesttings.json" according to your own database!
+First you must change "ConnectionStrings" under "appsettings.json" according to your own database!
 ```solidity
-pragma solidity ^0.8.0;
+
 
 "ConnectionStrings": {
-    "GuideApp": "????????"
+    "GuideApp": "Data Source= "
   },
+
+```
+You must run the following commands through Package Manager Console 
+
+```console
+$ Add-Migration "name"
+$ Update-Database
+```
