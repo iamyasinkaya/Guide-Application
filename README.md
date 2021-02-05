@@ -13,7 +13,7 @@ First you must change "ConnectionStrings" under "appsettings.json" according to 
 
 
 "ConnectionStrings": {
-    "GuideApp": "Data Source= "
+    "GuideApp": "Data Source="
   },
 
 ```
