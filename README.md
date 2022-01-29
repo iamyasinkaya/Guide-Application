@@ -1,4 +1,4 @@
-# Guide Application
+# Guide Application 👋
 
 ## 📦 NuGet Packages
 
